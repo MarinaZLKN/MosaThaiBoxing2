@@ -9,7 +9,7 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": "./src",
     "paths": {
-      "@images/*": ["images/*"]
+      "@images/*": ["src/images/*"]
     },
     "esModuleInterop": true
   },

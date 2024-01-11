@@ -1,19 +1,19 @@
 import * as React from 'react';
-// @ts-ignore
-import main from '@images/main.png';
+import './styles/App.css';
+import  Header  from './components/Header'
+import MainPage from "./components/Main/MainPage";
+
 
 const App: React.FC = () => {
     return (
         <div className="container">
             <header>
-               header
+                <Header/>
             </header>
             <main>
-                <img src={main} alt="main picture"/>
-                main
+                <MainPage/>
             </main>
             <footer>
-                footer
             </footer>
         </div>
     );
